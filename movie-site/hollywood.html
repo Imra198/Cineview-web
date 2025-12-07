@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>CineView</title>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans leading-normal tracking-normal">
+    
+    <header class="sticky top-0 z-50 bg-white shadow-md" >
+        
+        <div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+
+            <h1 class="text-xl font-bold text-gray-800">CineView</h1>
+
+            <nav class="space-x-6">
+                
+                <a href="index.html" class=" text-gray-700 hover:text-violet-600 font-semibold">HOME</a>
+                <a href="hollywood.html" class=" text-gray-700 hover:text-violet-600 font-semibold">HOLLYWOOD</a>
+                <a href="movies.html" class=" text-gray-700 hover:text-violet-600 font-semibold">MOVIES</a>
+                <a href="tv-shows.html" class=" text-gray-700 hover:text-violet-600 font-semibold">TV SHOWS</a>
+            </nav>   
+        </div>
+    </header>
+    <main class="main-content max-w-7xl mx-auto px-6 py-8">
+        <h2 class="text-3xl font-bold mb-4">Hollywood: News & Releases</h2>
+        <p class="mb-6">Stay updated with the latest Hollywood news, movie releases, and celebrity gossip. Explore reviews, trailers, and exclusive interviews with your favorite stars.</p>
+
+        <!-- Hollywood movie grid -->
+          <div class="movie-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Movie items go here -->
+
+           <!-- Movie 1 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" 
+                alt="Avengers: Endgame" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Avengers: Endgame</p>
+            </div>
+
+            <!-- Movie 2 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" 
+                alt="Joker (2019)" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Joker (2019)</p>
+            </div>
+
+            <!-- Movie 3 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" 
+                alt="Avengers: Infinity War" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Avengers: Infinity War</p>
+            </div>
+
+            <!-- Movie 4 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/cezWGskPY5x7GaglTTRN4F696jm.jpg" 
+                alt="Captain America: Civil War" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Captain America: Civil War</p>
+            </div>
+
+            <!-- Movie 5 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/6EIzo9Eg9KekCJ6dFU2arD8S63Z.jpg" 
+                alt="Top Gun: Maverick" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Top Gun: Maverick</p>
+            </div>
+
+            <!-- Movie 6 -->
+            <div class="bg-white shadow-lg rounded-xl overflow-hidden">
+                <img src="https://image.tmdb.org/t/p/w500/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg" 
+                alt="Doctor Strange in the Multiverse of Madness" class="w-full h-64 object-cover">
+                <p class="p-4 font-semibold text-center">Doctor Strange: Multiverse of Madness</p>
+            </div>
+             
+        </div>
+
+    </main>
+    <footer class= "bg-gray-900 text-white text-center py-6 mt-16">
+        <p>&copy; 2025 CineView. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
+

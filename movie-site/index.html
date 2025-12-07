@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore trending movies and TV shows with CineView — your hub for the latest Hollywood hits, classics, and binge-worthy series.">
+<meta name="keywords" content="movies, tv shows, hollywood, trending movies, streaming">
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>CineView: Your Ultimate Guide to Movies & TV Shows</title>
+    </head>
+    <body class="bg-gray-100 text-gray-900 font-sans leading-normal tracking-normal">
+        
+        <header class="sticky top-0 z-50 bg-white shadow-md" >
+            
+            <div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+                
+                <h1 class="text-xl font-bold text-gray-800">Welcome to CineView</h1>
+                <nav class="space-x-6">
+                    <a href="index.html" class=" text-gray-700 hover:text-violet-600 font-semibold">HOME</a>
+                    <a href="hollywood.html" class=" text-gray-700 hover:text-violet-600 font-semibold">HOLLYWOOD</a>
+                    <a href="movies.html" class=" text-gray-700 hover:text-violet-600 font-semibold">MOVIES</a>
+                    <a href="tv-shows.html" class=" text-gray-700 hover:text-violet-600 font-semibold">TV SHOWS</a>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content max-w-7xl mx-auto px-6 py-8">
+
+            <section class="hero-section bg-gray-900 text-white text-center py-20 px-6">
+
+                <div class="hero-content">
+                    <h2 class="hero-heading">Trending Now: Must-Watch Movies & Shows</h2>
+                    <p class="hero-description">Discover the latest hits and timeless classics in our curated selection of movies and TV shows. Stay updated with what's trending and find your next favorite watch!</p>
+
+                    <a href="#trending" class="mt-6 inline-block px-8 py-3 bg-violet-600 hover:bg-violet-700 rounded-full text-lg font-semibold transition">Start Exploring</a>
+                </div>
+            </section>
+
+            <!--Trending Movies Section-->
+            <section id= "trending" class="container mx-auto px-6 py-12">
+                
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Trending Movies</h2>
+                
+                <div class="movie-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+
+                    <!-- Movies -->
+                    <div class="movie-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" alt="Avengers: Endgame" class="w-full h-60 object-cover">
+                        <p class=" p-3 font-semibold text-center">Movie Title</p>
+                    </div>
+
+                    <div class="movie-item">
+                        <img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" alt="Joker 2019" class="w-full h-60 object-cover">
+                        <p class="p-3 font-semibold text-center">Movie Title2</p>
+                    </div>
+
+                    <div class="movie-item">
+                        <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Avengers: Infinity War" class="w-full h-60 object-cover">
+                        <p class="p-3 font-semibold text-center">Movie Title3</p>
+                    </div>
+                    <div class="movie-item">
+                        <img src="https://image.tmdb.org/t/p/w500/cezWGskPY5x7GaglTTRN4F696jm.jpg" alt="Captain America: Civil War" class="w-full h-60 object-cover">
+                        <p class="p-3 font-semibold text-center">Movie Title4</p>
+
+
+                </div>
+                </section>
+                
+        </main>
+
+        <footer class="bg-gray-900 text-white text-center py-6 mt-16">
+        <p>&copy; 2025 CineView. All rights reserved.</p>
+    </footer>
+    
+    </body>
+
+</html>
